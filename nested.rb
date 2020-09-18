@@ -15,7 +15,7 @@ def hopper
         :languages => ["C"]
       }
     }
-   return hopper = [:grace_hopper][:known_for][:languages]
+   return hopper = [:grace_hopper][0][1]
 end
 
 def alan_kay_is_known_for
